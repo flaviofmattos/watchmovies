@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_review_author_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_16dp"
+        android:layout_marginTop="@dimen/dim_16dp"
+        android:textColor="@color/secondaryDarkColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+        tools:text="Author" />
+
+    <TextView
+        android:id="@+id/tv_review_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/primaryDarkColor"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/tv_review_author_label"
+        app:layout_constraintStart_toEndOf="@+id/tv_review_author_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review_author_label"
+        tools:text="John Doe" />
+
+
+    <TextView
+        android:id="@+id/tv_review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/secondaryDarkColor"
+        android:layout_marginTop="@dimen/dim_8dp"
+        android:paddingStart="@dimen/dim_16dp"
+        android:paddingBottom="@dimen/dim_16dp"
+        android:paddingEnd="@dimen/dim_8dp"
+        app:layout_constraintStart_toStartOf="@+id/tv_review_author_label"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review_author_label"
+        tools:text="Review"
+        />
+
+    <View
+        android:id="@+id/review_item_separator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/tv_trailer_name"
+        android:background="@color/primaryDarkColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_review" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

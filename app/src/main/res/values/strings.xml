@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+
+    <string name="content_authority">com.project.watchmovies</string>
+
+    <string name="default_error_message">Something went wrong, please try again later</string>
+
+    <string name="label_preferences">Preferences</string>
+    <string name="label_most_popular">Most Popular</string>
+    <string name="label_average_rate">Average Rate</string>
+    <string name="label_favourite">Favourite</string>
+    <string name="label_sort_preference">Sort Preference</string>
+    <string name="label_sort_preference_title">Sort By</string>
+
+    <string name="content_description_movie_poster">Image of the movie\'s poster</string>
+    <string name="key_sort_mode">sort_mode</string>
+    <string name="value_sort_mode_popular">popular</string>
+    <string name="value_sort_mode_rate">rate</string>
+    <string name="value_sort_mode_favourite">favourite</string>
+
+    <string name="error_message_missing_api_key">Missing Movie API key. See MovieHttp.java</string>
+
+    <string name="no_favorite_movies">No favorite movies saved yet</string>
+
+    <string name="date_format">%1$tB %1$td, %1$tY</string>
+    <string name="movie_rate_format">%1$s/10</string>
+    <string name="trailers">Trailers</string>
+    <string name="show_reviews">Show Reviews</string>
+    <string name="hide_reviews">Hide Reviews</string>
+    <string name="review_author">Author</string>
+    <string name="no_reviews_available">No reviews available</string>
+    <string name="no_trailers_available">No trailers available</string>
+    <string name="movie_saved">Saved to favorites!</string>
+    <string name="movie_removed">Removed from favorites!</string>
+
+</resources>

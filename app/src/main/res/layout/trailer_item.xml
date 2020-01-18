@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/trailer_selection">
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dim_14dp"
+        android:layout_marginLeft="@dimen/dim_14dp"
+        android:layout_marginTop="@dimen/dim_24dp"
+        android:layout_marginBottom="@dimen/dim_16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_baseline_play_circle_outline_24px"
+        android:tint="@color/primaryDarkColor"/>
+
+
+    <TextView
+        android:id="@+id/tv_trailer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dim_16dp"
+        android:layout_marginStart="@dimen/dim_16dp"
+        android:layout_marginTop="@dimen/dim_24dp"
+        android:layout_marginBottom="@dimen/dim_16dp"
+        android:layout_toEndOf="@id/btn_play"
+        android:textColor="@color/secondaryDarkColor"/>
+
+
+    <View
+        android:id="@+id/trailer_item_separator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/tv_trailer_name"
+        android:background="@color/primaryDarkColor"
+        tools:layout_editor_absoluteX="0dp" />
+
+</RelativeLayout>
